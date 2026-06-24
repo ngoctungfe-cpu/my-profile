@@ -17,7 +17,7 @@ export default function QRSection() {
         "
       >
         <QRCode
-          value="https://your-domain.vercel.app"
+          value="https://my-profile-two-xi.vercel.app"
           size={150}
         />
       </div>
