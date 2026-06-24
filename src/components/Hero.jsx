@@ -17,20 +17,25 @@ export default function Hero({
             "0 0 20px #FFD700",
           ],
         }}
+        whileHover={{
+          scale: 1.08,
+        }}
         transition={{
           duration: 3,
           repeat: Infinity,
         }}
-        className="mx-auto w-fit rounded-full"
+        className="mx-auto w-fit rounded-full cursor-pointer"
       >
         <img
           src={avatar}
           alt={name}
           className="
-          w-36
-          h-36
+          w-48
+          h-48
           rounded-full
           object-cover
+          transition-all
+          duration-500
           "
         />
       </motion.div>

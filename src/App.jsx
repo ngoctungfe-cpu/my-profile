@@ -12,40 +12,31 @@ import {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white py-10">
+    <div
+      className="min-h-screen bg-cover bg-center bg-fixed"
+      style={{
+        backgroundImage: "url('/background.jpg')",
+      }}
+    >
+      <div className="min-h-screen bg-black/60 text-white py-10">
 
-      <div
-        className="
-        max-w-md
-        mx-auto
-        px-4
+        <div className="max-w-md mx-auto px-4 flex flex-col justify-center min-h-screen">
 
-        bg-black/40
+          <Hero {...profile} />
 
-        backdrop-blur-xl
+          <About />
 
-        border
-        border-yellow-500/20
+          <div className="mt-8 space-y-4">
+            {links.map((item) => (
+              <LinkCard
+                key={item.title}
+                {...item}
+              />
+            ))}
+          </div>
 
-        rounded-3xl
-
-        p-6"
->
-        <Hero {...profile} />
-
-        <About />
-
-        <div className="mt-8 space-y-4">
-          {links.map((item) => (
-            <LinkCard
-              key={item.title}
-              {...item}
-            />
-          ))}
         </div>
-        {/* <QRSection /> */}
-        {/* <SaveContact /> */}
-        {/* <Footer /> */}
+
       </div>
     </div>
   );

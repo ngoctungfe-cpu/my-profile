@@ -53,7 +53,7 @@ export const links = [
 
   //{
     //title: "Website",
-   // icon: Globe,
-   // url: "https://my-profile-two-xi.vercel.app",
+   //icon: Globe,
+   //url: "https://my-profile-two-xi.vercel.app",
   //},
 ];
