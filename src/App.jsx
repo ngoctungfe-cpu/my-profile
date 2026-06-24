@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import LinkCard from "./components/LinkCard";
 import About from "./components/About";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 //import QRSection from "./components/QRSection";
 //import SaveContact from "./components/SaveContact";
 
@@ -45,9 +45,8 @@ export default function App() {
         </div>
         {/* <QRSection /> */}
         {/* <SaveContact /> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
-
     </div>
   );
 }
