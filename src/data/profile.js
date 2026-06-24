@@ -10,12 +10,12 @@ import {
 } from "react-icons/bs";
 
 export const profile = {
-  name: "Đào Tùng",
+  name: "Đào Ngọc Tùng",
 
   title: "IT Solutions Consultant",
 
   subtitle:
-    "Business Development • Keyboard Reviewer • Content Creator",
+    "Business Development • Content Creator",
 
   avatar: "/avatar.jpg",
 };

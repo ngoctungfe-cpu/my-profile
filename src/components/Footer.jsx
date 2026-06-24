@@ -3,11 +3,11 @@ export default function Footer() {
     <div className="mt-10 text-center">
 
       <div className="text-gray-500 text-sm">
-        © 2026 Dao Tung
+        © Đào Ngọc Tùng
       </div>
 
       <div className="text-gray-600 text-xs mt-2">
-        Built with React & Tailwind
+        ĐNT
       </div>
 
     </div>
