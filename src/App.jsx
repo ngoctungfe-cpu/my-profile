@@ -1,9 +1,9 @@
 import Hero from "./components/Hero";
 import LinkCard from "./components/LinkCard";
 import About from "./components/About";
-import QRSection from "./components/QRSection";
 import Footer from "./components/Footer";
-import SaveContact from "./components/SaveContact";
+//import QRSection from "./components/QRSection";
+//import SaveContact from "./components/SaveContact";
 
 import {
   profile,
@@ -43,9 +43,8 @@ export default function App() {
             />
           ))}
         </div>
-
-        <QRSection />
-        <SaveContact />
+        {/* <QRSection /> */}
+        {/* <SaveContact /> */}
         <Footer />
       </div>
 
