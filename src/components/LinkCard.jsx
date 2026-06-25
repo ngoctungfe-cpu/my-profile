@@ -33,9 +33,9 @@ export default function LinkCard({
       className="
       flex
       items-center
-      gap-4
+      gap-3
 
-      p-4
+      p-3
 
       rounded-2xl
 
