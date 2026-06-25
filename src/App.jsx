@@ -19,15 +19,15 @@ export default function App() {
         backgroundImage: "url('/background.jpg')",
       }}
     >
-      <div className="h-screen bg-black/60 text-white py-2 overflow-y-auto hide-scrollbar">
+      <div className="min-h-screen bg-black/60 text-white py-10 overflow-y-auto hide-scrollbar">
 
-        <div className="max-w-md mx-auto px-4 flex flex-col justify-center min-h-full">
+        <div className="max-w-md mx-auto px-4 flex flex-col justify-center min-h-screen">
 
           <Hero {...profile} />
 
           <About />
 
-          <div className="mt-3 space-y-2">
+          <div className="mt-8 space-y-4">
             {links.map((item) => (
               <LinkCard
                 key={item.title}
