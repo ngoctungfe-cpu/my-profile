@@ -14,12 +14,12 @@ import {
 export default function App() {
   return (
     <div
-      className="h-screen bg-cover bg-center bg-fixed"
+      className="min-h-screen bg-cover bg-center bg-fixed"
       style={{
         backgroundImage: "url('/background.jpg')",
       }}
     >
-      <div className="min-h-screen bg-black/60 text-white py-10 overflow-y-auto hide-scrollbar">
+      <div className="min-h-screen bg-black/60 text-white py-10">
 
         <div className="max-w-md mx-auto px-4 flex flex-col justify-center min-h-screen">
 
